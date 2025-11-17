@@ -24,3 +24,20 @@ brew "<formula>"
 Cask fot the desktop app of the Hungarian National Tax and Customs Administration (NAV).
 
 `brew install salomvary/tap/anyk`
+
+## Development
+
+    cd $(brew --repository salomvary/tap)
+    # Make some changes
+
+    export HOMEBREW_NO_AUTO_UPDATE=1
+    export HOMEBREW_NO_INSTALL_FROM_API=1
+    brew install anyk
+    brew uninstall anyk
+
+    brew audit --new --cask anyk
+    brew style --fix anyk
+
+    git add ...
+    git commit
+    git push
