@@ -21,7 +21,7 @@ brew "<formula>"
 
 ### `anyk` aka. ÁNYK aka. AbevJava aka. Általános Nyomtatványkitöltő
 
-Cask fot the desktop app of the Hungarian National Tax and Customs Administration (NAV).
+Cask for the desktop app of the Hungarian National Tax and Customs Administration (NAV).
 
 `brew install salomvary/tap/anyk`
 
